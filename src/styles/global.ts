@@ -1,17 +1,12 @@
 import { createGlobalStyle } from "styled-components";
 
+/* 1rem = 16px */
 export const GlobalStyle = createGlobalStyle`
     :root {
         --black: #1A1A1A;
-        --red: #E62E4D;
-        --blue-light: #6933ff;
-        --green: #33cc95;
 
         --text-title: #FFFFFF;
         --text-body: #D9D9D9;
-
-        --background: #f0f2f5;
-
     }
 
     * {
@@ -31,8 +26,6 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: var(--background);
-
         //fontes mais nítidas, menos serrilhadas
         -webkit-font-smoothing: antialiased;
     }
